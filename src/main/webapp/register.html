@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link href="css/login.css" rel="stylesheet">
+</head>
+<body>
+<div id="loginDiv">
+    <form action="/request-demo/registerServlet" id="form" method="post">
+        <h1 id="loginMsg">SIGN IN</h1>
+        <p>Username:<input id="username" name="username" type="text"></p>
+        <p>Password:<input id="password" name="password" type="password"></p>
+
+        <div id="subDiv">
+            <input type="submit" class="button" value="注册">
+            <input type="reset" class="button" value="重置">
+            <a href="login.html">已有账号？登陆</a>
+        </div>
+
+    </form>
+</div>
+</body>
+</html>
