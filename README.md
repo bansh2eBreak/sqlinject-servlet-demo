@@ -3,10 +3,15 @@
 边学java web边写写安全漏洞代码，希望可以坚持下去
 
 安装教程：
+
 1、复制资料中的静态页面到项目的webapp目录下
+
 2、创建mybatis数据库，创建tb_user表，创建User实体类
+
 3、导入MyBatis坐标，MySQL驱动坐标
+
 4、创建mybatis-config.xml核心配置文件，UserMapper.xml映射文件，UserMapper接口
+
 
 sql语句：
 
